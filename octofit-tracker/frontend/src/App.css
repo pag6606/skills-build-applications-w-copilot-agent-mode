@@ -1,0 +1,87 @@
+
+.App {
+  background: linear-gradient(135deg, #e0ffe0 0%, #b2f7ef 100%);
+  min-height: 100vh;
+  color: #197935;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #197935 60%, #43c59e 100%) !important;
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.nav-link {
+  color: #e0ffe0 !important;
+  font-weight: 500;
+}
+.nav-link.active, .nav-link:focus, .nav-link:hover {
+  color: #43c59e !important;
+  background: #e0ffe0;
+  border-radius: 5px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(67,197,158,0.1);
+  margin-bottom: 2rem;
+}
+.card-title {
+  color: #197935;
+  font-weight: bold;
+}
+.card-text {
+  color: #43c59e;
+}
+
+table.table {
+  background: #e0ffe0;
+  color: #197935;
+  border-radius: 8px;
+  overflow: hidden;
+}
+table.table th {
+  background: #43c59e;
+  color: #fff;
+}
+table.table td {
+  background: #fff;
+}
+
+.btn-success {
+  background: linear-gradient(90deg, #197935 60%, #43c59e 100%);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(67,197,158,0.1);
+}
+.btn-success:hover {
+  background: #43c59e;
+  color: #fff;
+}
+
+h2, h1, h3 {
+  color: #197935;
+  font-weight: bold;
+}
+
+a {
+  color: #43c59e;
+  text-decoration: none;
+}
+a:hover {
+  color: #197935;
+  text-decoration: underline;
+}
+
+/* Logo styles */
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+/* Favicon styles (not CSS, but for reference) */
